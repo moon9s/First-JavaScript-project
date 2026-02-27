@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+
+<body>
+
+
+
+    <div>
+        <header>
+            <nav id="navbar"
+                class=" navbar fixed top-0 w-[80%%] z-50 transition-all duration-300  md:w-[80%]  lg:w-[70%] ">
+                <div
+                    class=" mx-10 mt-6 px-10 py-6 bg-pink-200/60 backdrop-blur-2xl rounded-3xl shadow-2xl flex justify-between items-center transition-all duration-300">
+                    <!-- logo section -->
+
+                    <div class="nav-content">
+
+                        <h1
+                            class="logo text-3xl font-extrabold bg-gradient-to-r from-pink-500 via-rose-400 to-purple-500 bg-clip-text text-transparent ">
+                            💖PinkCrypto
+                        </h1>
+                        <p class="text-sm text-purple-500 mt-1">
+                            Your Cute Crypto Dashboard🌸
+                        </p>
+
+                    </div>
+
+
+                    <!-- search -->
+                    <div class="flex-col items-center gap-6 md:flex-row ">
+                        <a href="#" class="text-purple-600 hover:text-pink-500 transition font-medium">Home</a>
+                        <a href="#" class="text-purple-600 hover:text-pink-500 transition font-medium">About</a>
+
+                    </div>
+                    <div class="flex-row md:flex-col"> <button id="theme"
+                            class="mb-3 bg-pink-400 p-1 rounded-2xl cursor-pointer">dark mode</button>
+                        <input id="search" type="text" placeholder="searching for Crypto"
+                            class="px-5 w-full md:w-64 py-2 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-pink-300">
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-chart   " style="height: 1500px;">
+
+                <ul class="w-full flex border-b border-pink-400 text-pink-300  *:w-[14%] p-4 ">
+                    <li class="">#</li>
+                    <li class="">Name</li>
+                    <li class=""> Current price</li>
+                    <li class=""> hight 24h</li>
+                    <li class="">low 24h</li>
+                    <li class="">24h %</li>
+                    <li class="">chart</li>
+                </ul>
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <div id="welcome-modal"
+        class=" fixed inset-0 z-[200] flex items-center justify-center bg-purple-900/40 backdrop-blur-md">
+        <div
+            class="bg-white p-6 rounded-[35px] shadow-[0-20px-60px-rgba(236,72,153,0.3)] text-center max-w-xs mx-4 border-b-8 border-pink-400 transform transition-all duration-500 ">
+            <div class="flex justify-center mt-20 ">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXRoZjZzMHV1czlxajhqZnhuZDlsYnBmaGR1OWFkMWFuNHBpd29wdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wsOUK1nwE7gWCWvgj3/giphy.gif"
+                    alt="Anime Welcome"
+                    class="w-40 h-40 rounded-full border-8 border-white object-cover shadow-2xl animate-bounce">
+
+            </div>
+            <h2 class="text-2xl font-black text-pink-600 mt-4">Konnichiwa! ✨</h2>
+            <p class="text-gray-500 font-medium mt-2">Welcome back to PinkCrypto! Your cute dashboard is ready. 🌸</p>
+            <button onclick="animegirl()" id="anime"
+                class="cursor-pointer mt-6 w-full bg-gradient-to-r from-pink-400 to-purple-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-3 rounded-2xl shadow-lg transition-all active:scale-95">
+                Let's Go! 🚀 </button>
+        </div>
+    </div>
+
+
+    <div id="end-msg"
+        class="hidden fixed bottom-10 left-1/2 -translate-x-1/2 z-[200] bg-pink-100 border-2 border-pink-400 p-4 rounded-3xl text-center shadow-lg">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dsbndpZ3l3Nmo3b3NrY3k3MW56bnF6ZXUydnoyNWFrajA2YjNnbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ErZ8hv5eO92JW/giphy.gif"
+            class="w-20 mx-auto">
+        <p class="text-pink-600 font-bold">the page ends here! ✨</p> <button
+            onclick="document.getElementById('end-msg').classList.add('hidden')"
+            class="text-xs text-pink-400 underline cursor-pointer">close</button>
+    </div>
+    <div class="fixed bottom-0 left-0 w-full bg-pink-900/80 text-white p-2 text-center backdrop-blur-sm">
+        <span id="digital-clock" class="font-mono text-lg font-bold">00:00:00</span>
+    </div>
+
+
+    <div id="cuteMessage"
+     class="fixed top-1/2 -translate-y-1/2 right-[-400px] 
+            bg-gradient-to-r from-pink-300 to-pink-400
+            p-4 rounded-2xl shadow-2xl 
+            flex items-center gap-4
+            transition-all duration-700 ease-out
+            z-50">
+
+    <img src="assets/img/аниме авы.jfif"
+         alt="Cute Anime"
+         class="w-20 h-20 rounded-xl object-cover">
+
+    <p class="font-bold text-pink-900 max-w-[200px]">
+        Don’t forget to invest in your future self 💖
+    </p>
+</div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
