@@ -36,5 +36,5 @@ This project was built with love using:
 This project is my first step into the world of programming with JavaScript! 🛤️✨ My goal was to handle user events, and make the web experience more engaging. 🚀🔥
 
 Hope you enjoy this little project! 🥺💖⭐
-<img src="[assets\img\Screenshot 2026-02-27 152903.png](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NDB3YmRib3BhZGE4b2Z0anZ1MXBsYm8xdjQ2cDZzMmZnNTV6dzV2cSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/LML5ldpTKLPelFtBfY/giphy.gif)" alt="Project Preview" width="400">
+<img src="(assets\img\Screenshot 2026-02-27 152903.png](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NDB3YmRib3BhZGE4b2Z0anZ1MXBsYm8xdjQ2cDZzMmZnNTV6dzV2cSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/LML5ldpTKLPelFtBfY/giphy.gif)" alt="Project Preview" width="400">
 
